@@ -1,0 +1,13 @@
+'.source.python':
+  'Create def main function python':
+    'prefix': 'main'
+    'body': """
+    def main():
+      ${1:#Insert Code}
+
+    if __name__ == "__main__":
+      main()
+    """
+
+# Add this to .atom file in user/.atom
+# Also it's scope is only for python
